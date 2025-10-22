@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="icon" type="img/icon" href="https://cdn-icons-png.flaticon.com/512/603/603156.png">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+
+
+    <title>DataBase</title>
+</head>
+<body>
+    <header>
+        <h1>Firebase Firestore + DOM</h1>
+    </header>
+
+
+     <section id="button-set">
+            <button id="delete-all">Delete All</button>
+            <button id="limpiar-cache">Limpiar Cache</button>
+            <!-- <button id="read-one">Find One by Id</button>
+            <button id="delete">Delete</button>
+            <button id="clean">Clean</button>
+            <button id="show-favorites">Show favorites</button> -->
+    </section>
+
+
+
+
+      <form id="contacto-form">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+
+    <label for="imagen">URL imagen:</label>
+    <input type="url" id="imagen" name="imagen"required>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+
+  <section id="album">
+
+  </section>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+
+        <script src="./script.js"></script>
+</body>
+</html>
